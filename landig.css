@@ -1,0 +1,79 @@
+html{
+background-image: url(https://github.com/Riwi-io-Medellin/performance-test-M2/blob/main/assets/img/img-5.jpg?raw=true);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+h1{
+font-size:xx-large;
+grid-row-end: auto;
+flex: auto;
+text-align: center;
+align-items: center;
+font-size: xx-large;
+color: red;
+
+}
+
+.flex{
+text-align: center;
+inline-size: center;
+font-size: xx-large;
+align-items: end;
+background-color:red;
+position: end;
+}
+
+span{
+text-align: end;
+align-items: end;
+}
+
+.hero{
+
+
+}
+
+table{
+table-layout: auto;
+tab-size: 100px;
+border-color: black;
+border-spacing: 50px;
+background-color: rgb(148, 3, 3);
+font-size: xx-large;
+
+}
+
+
+.text{
+color: aliceblue;
+text-align: center;
+font-size: xx-large;
+}
+
+ol{
+color: aliceblue;
+font-size: xx-large;
+}
+
+li{
+color: aliceblue;
+font-size: x-large;
+}
+
+.foot{
+color: aliceblue;
+font-size: larger;
+}
+
+@media (max-width: 765px) {
+.html{
+    flex-direction: column;
+    grid-template-rows: max-content
+}}
+
+@media (max-width: 1024px) {
+.html{
+    grid-template-columns: repeat(2, 1fr);
+ }
+}
